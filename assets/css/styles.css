@@ -981,11 +981,13 @@ html {
   }
   .content {
     position: relative;
-    top: -340px;
+    top: -400px;
     left: 5%;
     color: #fff;
     font-size: 45px;
     width: auto;
+
+    
   }
   .btn {
     font-size: medium !important;
@@ -1036,6 +1038,9 @@ html {
     align-items: center;
     text-align: initial;
     padding: 4rem 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
  .about__img{
    width: 200px;
@@ -1103,7 +1108,9 @@ html {
   .portfolio__container {
     padding: 4rem 0;
     display: grid;
-   grid-template-columns: repeat(2, 1fr);
+   grid-template-columns: repeat(3, 1fr);
+   
+   
   
   }
   .portfolio__img {
@@ -1113,12 +1120,12 @@ html {
   }
   .portfolio__img img {
     border-radius: 0.5rem;
-    width:400px;
+    width:390px;
   }
   .portfolio__link {
     position: absolute;
     bottom: -100%;
-    width:400px;
+    width:390px;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -1132,7 +1139,7 @@ html {
   .portfolio__img:hover .portfolio__link,
   .portfolio__img:active {
     bottom: 0;
-    width:400px;
+    width:390px;
   }
   .portfolio__link-name {
     color: #000;
