@@ -868,8 +868,8 @@ html {
   .portfolio__container {
     padding: 4rem 0;
     display: grid;
-   grid-template-columns: repeat(2, 1fr);
-  
+   grid-template-columns: repeat(4, 1fr);
+
   }
   .portfolio__img {
     position: relative;
@@ -878,12 +878,12 @@ html {
   }
   .portfolio__img img {
     border-radius: 0.5rem;
-    width:258px;
+    width:300px;
   }
   .portfolio__link {
     position: absolute;
     bottom: -100%;
-    width:258px;
+    width:300px;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -897,7 +897,7 @@ html {
   .portfolio__img:hover .portfolio__link,
   .portfolio__img:active {
     bottom: 0;
-    width:400px;
+    width:300px;
   }
   .portfolio__link-name {
     color: #000;
