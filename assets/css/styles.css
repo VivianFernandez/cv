@@ -632,8 +632,8 @@ html {
   .portfolio__container {
     padding: 4rem 0;
     display: grid;
-   grid-template-columns: repeat(2, 1fr);
-  
+   grid-template-columns: repeat(3, 1fr);
+
   }
   .portfolio__img {
     position: relative;
@@ -642,12 +642,12 @@ html {
   }
   .portfolio__img img {
     border-radius: 0.5rem;
-    width:300px;
+    width:400px;
   }
   .portfolio__link {
     position: absolute;
     bottom: -100%;
-    width:300px;
+    width:400px;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -661,10 +661,11 @@ html {
   .portfolio__img:hover .portfolio__link,
   .portfolio__img:active {
     bottom: 0;
-    width:300px;
+    width:400px;
   }
   .portfolio__link-name {
     color: #000;
+    font-size: 20px;
   }
   .portfolio__link-name:hover {
     color: #fff;
