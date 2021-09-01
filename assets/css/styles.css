@@ -877,12 +877,12 @@ html {
   }
   .portfolio__img img {
     border-radius: 0.5rem;
-    width:400px;
+    width:258px;
   }
   .portfolio__link {
     position: absolute;
     bottom: -100%;
-    width:400px;
+    width:258px;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -1109,9 +1109,7 @@ html {
     padding: 4rem 0;
     display: grid;
    grid-template-columns: repeat(3, 1fr);
-   
-   
-  
+
   }
   .portfolio__img {
     position: relative;
@@ -1120,12 +1118,12 @@ html {
   }
   .portfolio__img img {
     border-radius: 0.5rem;
-    width:390px;
+    width:300px;
   }
   .portfolio__link {
     position: absolute;
     bottom: -100%;
-    width:390px;
+    width:300px;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -1139,7 +1137,7 @@ html {
   .portfolio__img:hover .portfolio__link,
   .portfolio__img:active {
     bottom: 0;
-    width:390px;
+    width:300px;
   }
   .portfolio__link-name {
     color: #000;
